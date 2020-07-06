@@ -2,7 +2,7 @@ namespace Aula31ProjetoWhatsappCSV
 {
     public interface IAgenda
     {
-        void Cadastrar();
+        void Cadastrar(Contato ct);
 
         void Excluir();
 
