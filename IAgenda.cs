@@ -1,12 +1,14 @@
+using System.Collections.Generic;
+
 namespace Aula31ProjetoWhatsappCSV
 {
     public interface IAgenda
     {
         void Cadastrar(Contato ct);
 
-        void Excluir();
+        void Remover(string contato);
 
-        void Listar();
+        List<Contato> Listar();
 
     }
 }
