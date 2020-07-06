@@ -1,0 +1,13 @@
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\bin\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.exe
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\bin\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.deps.json
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\bin\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.runtimeconfig.json
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\bin\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.runtimeconfig.dev.json
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\bin\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.dll
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\bin\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.pdb
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.AssemblyInfo.cs
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.dll
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.pdb
+C:\Users\pc\Desktop\Aula31ProjetoWhatsappCSV\obj\Debug\netcoreapp3.1\Aula31ProjetoWhatsappCSV.genruntimeconfig.cache
