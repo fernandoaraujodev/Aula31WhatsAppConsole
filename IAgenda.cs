@@ -6,7 +6,7 @@ namespace Aula31ProjetoWhatsappCSV
     {
         void Cadastrar(Contato ct);
 
-        void Remover(string contato);
+        void Remover(Contato ct);
 
         List<Contato> Listar();
 

@@ -6,23 +6,23 @@ namespace Aula31ProjetoWhatsappCSV
 {
     public class Agenda : IAgenda
     {
-                
         public const string PATH = "Database/Contato.csv";
 
         public Agenda()
         {
 
-            //Criando arquivo Database
+            //Criando diretório pasta Database
             string pasta = PATH.Split('/')[0]; //Criando array com o arquivo Database
-            string csv = PATH.Split("/")[1];
 
             if(!Directory.Exists(pasta))//Se o diretório não existe, crie o diretório
             {
-                Directory.CreateDirectory(pasta);
-                File.Create(csv).Close();
+                Directory.CreateDirectory(pasta); 
+            }
 
-                //Corrigir erro
-                //Esta criando diretório e arquivo, mas o arquivo não é criado dentro do diretório 
+            //Criando arquivo dentro do diretório Database
+            if(!File.Exists(PATH))
+            {
+                File.Create(PATH).Close();
             }
         }
 
@@ -54,8 +54,8 @@ namespace Aula31ProjetoWhatsappCSV
         /// <summary>
         /// Remover contato da agenda indicando parametro
         /// </summary>
-        /// <param name="contato"> contato que será excluido</param>
-        public void Remover(string contato)
+        /// <param name="contato">contato que será excluido</param>
+        public void Remover(Contato ct)
         {
             List<string> Contatos = new List<string>();
             using(StreamReader contacts = new StreamReader(PATH))
@@ -68,7 +68,7 @@ namespace Aula31ProjetoWhatsappCSV
             }
 
             // Remover o que o contato indicado contem
-            Contatos.RemoveAll(c => c.Contains(contato));
+            Contatos.RemoveAll(c => c.Contains(ct.Nome));
 
             //Reescrever nosso CSV com nossa nova lista
             ReescreverCSV(Contatos);

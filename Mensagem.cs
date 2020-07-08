@@ -10,11 +10,10 @@ namespace Aula31ProjetoWhatsappCSV
         /// </summary>
         /// <param name="destinatario"> selecionamos o contato destinátario</param>
         /// <returns></returns>
-        public string Enviar(Contato _destinatario){
-            this.Destinatario = _destinatario;
-            
+        public string Enviar()
+        {    
             // Mensagem que será enviada
-            return $"A mensagem {Texto} foi enviada para o {_destinatario}";
+            return $"A mensagem {Texto} foi enviada para o {Destinatario.Nome}";
         }
     }
 }
